@@ -12,3 +12,8 @@ Cannot create cluster 'ADA-Terraform' because EKS does not support creating cont
 
     Em cima da hora, a última tentativa passou a ser subir o REDIS como imagem.
     Na documentação do sistema, eles indicam usar o serviço cloud: https://redis.io/learn/operate/provisioning/terraform
+
+    Testei também usando o EC2, criei 3 instâncias e instalei o Kubeadm, mas os pods não se enxergavam.
+    Depois, percebi que o mesmo está acontecendo no meu laboratório em casa, não sei se houve alguma alteração no K8S posterior a entrega do projeto do módulo anterior.
+
+    Uma dificuldade que não consegui resolver até o encerramento do ambiente no domingo, foi a criação do PV que depende da infraestrutura da AWS, criei um EFS mas faltou algo para a conexão (bind).
