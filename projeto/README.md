@@ -17,3 +17,7 @@ Cannot create cluster 'ADA-Terraform' because EKS does not support creating cont
     Depois, percebi que o mesmo está acontecendo no meu laboratório em casa, não sei se houve alguma alteração no K8S posterior a entrega do projeto do módulo anterior.
 
     Uma dificuldade que não consegui resolver até o encerramento do ambiente no domingo, foi a criação do PV que depende da infraestrutura da AWS, criei um EFS mas faltou algo para a conexão (bind).
+
+Com os reforços de aulas extras e a implementação do módulo final, subi a infraestrutura na aws usando o Terraform.
+
+https://github.com/linconln/projeto.git
